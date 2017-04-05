@@ -4,12 +4,7 @@ public abstract class BasePresenter<V extends MvpView> implements MvpPresenter<V
 
   private V mMvpView;
 
-  public EventBus eventBus;
-
-  @Inject
-  public BasePresenter(final EventBus eventBus) {
-    this.eventBus = eventBus;
-  }
+//  @Inject public EventBus eventBus;
 
   @Override
   public void onCreate(V mvpView) {
