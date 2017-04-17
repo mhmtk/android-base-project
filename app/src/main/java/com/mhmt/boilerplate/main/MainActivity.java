@@ -11,7 +11,7 @@ import javax.inject.Inject;
 
 public class MainActivity extends BaseActivity implements MainMvpView {
 
-  @Inject protected MainPresenter presenter;
+  @Inject protected MainPresenter<MainMvpView> presenter;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {

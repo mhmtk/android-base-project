@@ -2,7 +2,13 @@ package com.mhmt.boilerplate.main;
 
 import com.mhmt.boilerplate.base.BasePresenter;
 
+import javax.inject.Inject;
+
 public class MainPresenter<V extends MainMvpView> extends BasePresenter<V> implements MainMvpPresenter<V> {
+
+  @Inject
+  public MainPresenter() {
+  }
 
   @Override public void buttonClicked() {
 
