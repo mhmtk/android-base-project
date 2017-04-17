@@ -1,4 +1,4 @@
-package com.mhmt.boilerplate;
+package com.mhmt.boilerplate.base;
 
 public interface MvpPresenter<V extends MvpView> {
 
